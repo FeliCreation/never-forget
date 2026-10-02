@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Never Forget</title>
+<link rel="stylesheet" href="ui/ui.css">
+<style>
+  html,body{width:360px;min-height:220px;background:var(--win)}
+  .pop{display:flex;flex-direction:column;gap:12px;padding:14px}
+  .pop .top{display:flex;align-items:center;gap:10px}
+  .pop .brand{padding:0;flex:1;font-size:15px}
+  .pop .list{max-height:300px;overflow:auto}
+  .pop .item{min-height:52px;padding:6px 8px}
+  .pop .acts{display:flex;gap:6px}
+</style>
+</head>
+<body>
+<div id="pop" class="pop"></div>
+<script type="module" src="popup.js"></script>
+</body>
+</html>

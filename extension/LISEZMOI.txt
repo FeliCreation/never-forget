@@ -1,0 +1,30 @@
+NEVER FORGET : gestionnaire de mots de passe
+=============================================
+
+INSTALLATION (Chrome, Edge, Brave : 2 minutes)
+1. Décompressez ce fichier ZIP dans un dossier que vous ne supprimerez pas
+   (par exemple Documents\NeverForget). Ne le supprimez pas : le navigateur le lit depuis là.
+2. Ouvrez la page  chrome://extensions  (ou  edge://extensions).
+3. Activez « Mode développeur » (en haut à droite).
+4. Cliquez « Charger l'extension non empaquetée » et choisissez le dossier décompressé
+   (celui qui contient le fichier manifest.json).
+5. Épinglez l'icône Never Forget (puzzle > punaise). Une page d'accueil s'ouvre : créez votre coffre.
+
+PREMIERS PAS
+- Choisissez un mot de passe maître solide : une phrase de 4 ou 5 mots fonctionne très bien.
+- NOTEZ VOTRE CLÉ DE RÉCUPÉRATION sur papier. Sans elle et sans votre mot de passe maître,
+  personne ne peut rouvrir votre coffre : il n'y a pas de serveur, donc pas de « mot de passe oublié ».
+- Pour migrer depuis Dashlane / Chrome / Bitwarden : exportez en CSV chez eux,
+  puis Never Forget > Sauvegarde et import > Choisir un CSV. Supprimez ensuite le CSV.
+- Sur une page de connexion, cliquez dans le champ mot de passe : une pastille bleue apparaît.
+  Cliquez dessus pour remplir. Rien n'est jamais rempli sans votre clic.
+
+VIE PRIVÉE
+- Tout est chiffré sur votre ordinateur (AES-256). Aucun compte, aucun serveur, aucune télémétrie.
+- Seule exception, facultative : « Vérifier les fuites de données » envoie un fragment (5 caractères)
+  de l'empreinte de vos mots de passe à haveibeenpwned.com. Jamais un mot de passe ni un e-mail.
+
+LIMITES
+- Pas de synchronisation automatique entre appareils : utilisez la sauvegarde chiffrée (.nfvault).
+- Chrome affiche parfois un avertissement « extensions du mode développeur » au démarrage : normal
+  pour une extension installée hors du Chrome Web Store.

@@ -1,0 +1,1 @@
+{ "name": "never-forget", "private": true, "type": "module", "scripts": { "test": "node test/core.test.mjs && node test/background.test.mjs", "icons": "node tools/make-icons.mjs", "dev": "node tools/serve.mjs" } }
